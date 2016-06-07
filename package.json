@@ -1,0 +1,25 @@
+{
+  "name": "nimjs",
+  "version": "0.0.1",
+  "description": "Compile Nim in JavaScript",
+  "author": "Adam Stankiewicz",
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.12"
+  },
+  "repository": "sheerun/nimjs",
+  "scripts": {
+    "postinstall": "node build.js"
+  },
+  "bin": {
+    "nim": "bin/nim"
+  },
+  "keywords": [
+    "nim",
+    "nimrod",
+    "compiler"
+  ],
+  "dependencies": {
+    "tmp": "0.0.28"
+  }
+}
