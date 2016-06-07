@@ -1,4 +1,4 @@
-var tmp = require('tmp');
+var tmp = require('./vendor/node_modules/tmp');
 var fs = require('fs');
 var cp = require('child_process');
 var path = require('path');
