@@ -51,16 +51,21 @@ const data = {
   }
   ],
   binaries: [
-  {
-    platform: 'darwin',
-    arch: 'x64',
-    url: base + 'nim-darwin'
-  },
-  {
-    platform: 'win32',
-    arch: 'x64',
-    url: base + 'nim-win32-x64.exe'
-  }
+    {
+      platform: 'darwin',
+      arch: 'x64',
+      url: base + 'nim-darwin'
+    },
+    {
+      platform: 'win32',
+      arch: 'x64',
+      url: base + 'nim-win32-x64.exe'
+    },
+    {
+      platform: 'win32',
+      arch: 'ia32',
+      url: base + 'nim-win32-ia32.exe'
+    }
   ]
 }
 
