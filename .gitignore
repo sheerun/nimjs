@@ -2,3 +2,4 @@
 *.o
 /bin/nim
 /vendor/node_modules
+build.js
