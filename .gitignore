@@ -1,3 +1,4 @@
 !bin
 *.o
 /bin/nim
+/vendor/node_modules
